@@ -4,22 +4,6 @@ using System.Xml.Linq;
 
 Console.WriteLine("Hello, World!");
 
-//var names = new[] { "Ivanov", "Petrov", "Sidorov" };
-
-//var list = new List<int>() { 1, 0, 3, 4, 5, 6, 0, 8, 9 };
-
-
-//var result = names.Where(name => name.Length > 6);
-
-//var res = list.Top(6);
-
-
-
-//Console.WriteLine(string.Join(",", result));
-
-//Console.WriteLine(string.Join("|", res));
-
-
 
 var listPoint1 = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 var result = listPoint1.TopPoint1(30);
